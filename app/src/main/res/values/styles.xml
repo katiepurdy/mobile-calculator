@@ -1,0 +1,19 @@
+<resources>
+        <!-- the theme applied to the application or activity -->
+        <style name="CustomActionBarTheme"
+            parent="@android:style/Theme.Holo.Light.DarkActionBar">
+            <item name="android:actionBarStyle">@style/MyActionBar</item>
+        </style>
+
+        <!-- ActionBar styles -->
+        <style name="MyActionBar"
+            parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+            <item name="android:background">@color/softblack</item>
+        </style>
+
+    <color name="pink900">#880e4f</color>
+
+    <color name="purple900">#4a1468</color>
+
+    <color name="softblack">#212121</color>
+</resources>
